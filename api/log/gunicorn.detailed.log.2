@@ -1,0 +1,78 @@
+[2023-12-10 17:03:25,843] INFO _log() L96    * Restarting with stat - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:03:29,178] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:03:29] "GET /pacientes HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:03:38,502] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:03:38] "POST /update_paciente HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:03:39,759] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:03:39] "GET /pacientes HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:04:55,769] INFO _log() L96    * Detected change in 'C:\\Users\\Pedro\\Documents\\posgraduacao\\projeto_mvp3\\app\\api\\app.py', reloading - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:04:55,905] INFO _log() L96    * Restarting with stat - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:05:19,035] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:05:19] "POST /update_paciente HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:05:20,445] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:05:20] "GET /pacientes HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:07:31,201] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:07:31] "GET /pacientes HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:14:43,119] INFO _log() L96    * Detected change in 'C:\\Users\\Pedro\\Documents\\posgraduacao\\projeto_mvp3\\app\\api\\model\\modelo.py', reloading - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:14:43,261] INFO _log() L96    * Restarting with stat - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:15:29,618] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:15:29] "POST /paciente HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:15:30,761] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:15:30] "GET /pacientes HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:15:45,792] INFO _log() L96    * Detected change in 'C:\\Users\\Pedro\\Documents\\posgraduacao\\projeto_mvp3\\app\\api\\model\\modelo.py', reloading - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:15:45,955] INFO _log() L96    * Restarting with stat - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:16:24,686] ERROR log_exception() L825  Exception on /paciente [POST] - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py L825 
+Traceback (most recent call last):
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask_openapi3\scaffold.py", line 117, in view_func
+    response = func(**func_kwargs)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\app.py", line 103, in predict
+    death=Model.preditor(modelo, form)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\model\modelo.py", line 37, in preditor
+    death = model.predict(X_input.reshape(1, 11))
+                          ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: cannot reshape array of size 12 into shape (1,11)
+[2023-12-10 17:16:24,695] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:16:24] "[35m[1mPOST /paciente HTTP/1.1[0m" 500 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:16:32,034] ERROR log_exception() L825  Exception on /paciente [POST] - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py L825 
+Traceback (most recent call last):
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\flask_openapi3\scaffold.py", line 117, in view_func
+    response = func(**func_kwargs)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\app.py", line 103, in predict
+    death=Model.preditor(modelo, form)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\model\modelo.py", line 37, in preditor
+    death = model.predict(X_input.reshape(1, 11))
+                          ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: cannot reshape array of size 12 into shape (1,11)
+[2023-12-10 17:16:32,036] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:16:32] "[35m[1mPOST /paciente HTTP/1.1[0m" 500 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:04,340] INFO _log() L96    * Detected change in 'C:\\Users\\Pedro\\Documents\\posgraduacao\\projeto_mvp3\\app\\api\\model\\modelo.py', reloading - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:04,488] INFO _log() L96    * Restarting with stat - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:06,406] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:17:06] "POST /paciente HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:08,784] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:17:08] "GET /pacientes HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:45,001] INFO _log() L96    * Detected change in 'C:\\Users\\Pedro\\Documents\\posgraduacao\\projeto_mvp3\\app\\api\\model\\modelo.py', reloading - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:45,163] INFO _log() L96    * Restarting with stat - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-10 17:17:49,096] INFO _log() L96   127.0.0.1 - - [10/Dec/2023 17:17:49] "POST /update_paciente HTTP/1.1" 200 - - call_trace=C:\Users\Pedro\Documents\posgraduacao\projeto_mvp3\app\api\env\Lib\site-packages\werkzeug\_internal.py L96  
